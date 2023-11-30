@@ -1,0 +1,363 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;900&family=Shadows+Into+Light&display=swap');
+
+/* poppins */
+  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    /* background-image: url("assets/images/bg.jpg"); */
+    background-image: url("assets/images/bg.jpg");
+    /* height: 80vh; */
+    height: 110vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: max(1650px,100vw);
+}
+
+.main .box{
+    /* height: 80vh; */
+    height: 100%;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    /* background-color: rgb(0 0 0 / 40%); */
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    max-width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: relative;
+}
+
+nav img{
+    color: rgb(126, 12, 12);
+    /* height: 120px; */
+    position: relative;
+    z-index: 9;
+    width: 140px;
+}
+
+nav button{
+    position: relative;
+    z-index: 9;
+}
+
+.login{
+    display: flex;
+    gap: 24px;
+}
+
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    max-width: 80%;
+    /* padding: 30px; */
+    text-align: center;
+    margin: auto;
+    gap: 0px;
+}
+
+.hero> :nth-child(1){
+
+    font-size: 44px;
+    font-weight: bolder;
+    line-height: 60px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-size: 23px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+body{
+    background-color: black
+}
+
+.sepration{
+    height: 7px;
+    background-color: rgb(50, 50, 50);
+
+}
+
+.search{
+    display: flex;
+    padding: 19px 10px;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.main input{
+    padding: 17px 73px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: rgba(1,1,1,0.1);
+    border: 1px solid gray;
+    color: white;
+
+}
+
+.btn{
+    padding: 8px 15px;
+    font-weight: bold;
+    background-color: white;
+    border:none;
+    /* color: white; */
+    border-radius: 4px;
+
+}
+
+.btn-lang{
+    background-color: rgba(1, 1, 1, 0.1);
+    border: 1px solid gray;
+    padding: 8px 25px;
+    color: white;
+
+}
+
+.btn-red{
+    background-color: red;
+    font-size: 29px;
+    border-radius: 4px;
+    padding: 12px 38px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.first{
+    display: flex;
+    max-width: 74vw;
+    margin: auto;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    margin-top: 14px;
+    margin-bottom: 65px;
+}
+
+.secImg video{
+    position: absolute;
+    right: 65px;
+    top: 92px;
+    width: 417px;
+}
+
+.first> div :first-child{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.first> div :nth-child(2){
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secImg{
+    
+}
+
+/* ----------------------------------------------------- */
+
+.smallbox{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: black;
+    max-width: 260px;
+    color: white;
+    padding: 9px 12px;
+    justify-content: space-between;
+    border-radius: 14px;
+    border: 3px solid rgb(70, 68, 68);
+}
+
+.image img{
+    width: 50px;
+    padding: 0px 4px;
+ }
+
+.smallbox .name{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.name :nth-child(2){
+    color: rgb(11, 11, 147);
+}
+
+.smallbox .gif img{
+    width: 60px;
+}
+/* ----------------------------------------------------------- */
+
+
+.second{
+    display: flex;
+    max-width: 74vw;
+    margin: auto;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    position: relative;
+    align-items: center;
+    padding-bottom: 46px;
+    
+}
+
+.second .second-img> :nth-child(1){
+    width: 450px;
+}
+
+.second .smallbox{
+    position: absolute;
+    top: 218px;
+    left: 103px;
+
+}
+
+.second #details{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+#details :nth-child(1){
+    font-size: 37px;
+}
+
+.thirdImg img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    margin-top: 14px;
+    margin-bottom: 65px;
+
+}
+
+.thirdImg video{
+    position: absolute;
+    right: 112px;
+    top: 62px;
+    width: 343px;
+
+}
+
+
+
+.faq h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    color: white;
+    padding: 24px;
+    background-color: rgb(45,45,45);
+    margin: 10px auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+
+}
+
+.searchbox2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search2{
+    display: flex;
+    gap: 25px;
+    padding: 19px 0px;
+    justify-content: center;
+}
+
+.search2 input{
+    padding: 17px 73px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: rgba(1,1,1,0.1);
+    border: 1px solid gray;
+}
+
+footer .footerbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 70vw;
+    margin: 40px auto;
+    line-height: 40px;
+
+}   
+
+.footbox #list{
+    list-style: none;
+}
+
+a{
+    color: white;
+}
